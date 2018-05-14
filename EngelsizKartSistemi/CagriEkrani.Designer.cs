@@ -31,15 +31,22 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CagriEkrani));
             this.timerYenileyici = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnGuncel = new System.Windows.Forms.Button();
+            this.btnGecmis = new System.Windows.Forms.Button();
+            this.flowLayoutPanelCagri = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlGuncel = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.pnlGecmis = new System.Windows.Forms.Panel();
+            this.cbMahalle = new System.Windows.Forms.ComboBox();
+            this.dataGridViewGecmis = new System.Windows.Forms.DataGridView();
+            this.btnCagriGuncelle = new System.Windows.Forms.Button();
+            this.lbl_durum = new System.Windows.Forms.Label();
+            this.dataGridViewGuncel = new System.Windows.Forms.DataGridView();
+            this.cmb_durum = new System.Windows.Forms.ComboBox();
+            this.flowLayoutPanelCagri.SuspendLayout();
             this.pnlGuncel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.pnlGecmis.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewGecmis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewGuncel)).BeginInit();
             this.SuspendLayout();
             // 
             // timerYenileyici
@@ -47,48 +54,85 @@
             this.timerYenileyici.Interval = 1000;
             this.timerYenileyici.Tick += new System.EventHandler(this.timerYenileyici_Tick);
             // 
-            // button1
+            // btnGuncel
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnGuncel.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnGuncel, "btnGuncel");
+            this.btnGuncel.FlatAppearance.BorderSize = 0;
+            this.btnGuncel.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnGuncel.Name = "btnGuncel";
+            this.btnGuncel.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnGecmis
             // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnGecmis.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnGecmis, "btnGecmis");
+            this.btnGecmis.FlatAppearance.BorderSize = 0;
+            this.btnGecmis.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.btnGecmis.Name = "btnGecmis";
+            this.btnGecmis.UseVisualStyleBackColor = false;
             // 
-            // flowLayoutPanel1
+            // flowLayoutPanelCagri
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.pnlGuncel);
-            resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanelCagri.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanelCagri.Controls.Add(this.pnlGuncel);
+            resources.ApplyResources(this.flowLayoutPanelCagri, "flowLayoutPanelCagri");
+            this.flowLayoutPanelCagri.Name = "flowLayoutPanelCagri";
             // 
             // pnlGuncel
             // 
-            this.pnlGuncel.Controls.Add(this.panel1);
-            this.pnlGuncel.Controls.Add(this.dataGridView1);
+            this.pnlGuncel.Controls.Add(this.pnlGecmis);
+            this.pnlGuncel.Controls.Add(this.dataGridViewGuncel);
+            this.pnlGuncel.Controls.Add(this.cmb_durum);
+            this.pnlGuncel.Controls.Add(this.lbl_durum);
+            this.pnlGuncel.Controls.Add(this.btnCagriGuncelle);
             resources.ApplyResources(this.pnlGuncel, "pnlGuncel");
             this.pnlGuncel.Name = "pnlGuncel";
             // 
-            // panel1
+            // pnlGecmis
             // 
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            this.pnlGecmis.Controls.Add(this.cbMahalle);
+            this.pnlGecmis.Controls.Add(this.dataGridViewGecmis);
+            resources.ApplyResources(this.pnlGecmis, "pnlGecmis");
+            this.pnlGecmis.Name = "pnlGecmis";
             // 
-            // dataGridView1
+            // cbMahalle
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.dataGridView1, "dataGridView1");
-            this.dataGridView1.Name = "dataGridView1";
+            this.cbMahalle.FormattingEnabled = true;
+            resources.ApplyResources(this.cbMahalle, "cbMahalle");
+            this.cbMahalle.Name = "cbMahalle";
+            // 
+            // dataGridViewGecmis
+            // 
+            this.dataGridViewGecmis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridViewGecmis, "dataGridViewGecmis");
+            this.dataGridViewGecmis.Name = "dataGridViewGecmis";
+            // 
+            // btnCagriGuncelle
+            // 
+            resources.ApplyResources(this.btnCagriGuncelle, "btnCagriGuncelle");
+            this.btnCagriGuncelle.Name = "btnCagriGuncelle";
+            this.btnCagriGuncelle.UseVisualStyleBackColor = true;
+            this.btnCagriGuncelle.Click += new System.EventHandler(this.btnCagriGuncelle_Click);
+            // 
+            // lbl_durum
+            // 
+            resources.ApplyResources(this.lbl_durum, "lbl_durum");
+            this.lbl_durum.Name = "lbl_durum";
+            // 
+            // dataGridViewGuncel
+            // 
+            this.dataGridViewGuncel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridViewGuncel, "dataGridViewGuncel");
+            this.dataGridViewGuncel.Name = "dataGridViewGuncel";
+            // 
+            // cmb_durum
+            // 
+            this.cmb_durum.FormattingEnabled = true;
+            this.cmb_durum.Items.AddRange(new object[] {
+            resources.GetString("cmb_durum.Items")});
+            resources.ApplyResources(this.cmb_durum, "cmb_durum");
+            this.cmb_durum.Name = "cmb_durum";
             // 
             // CagriEkrani
             // 
@@ -96,30 +140,38 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.BackgroundImage = global::EngelsizKartSistemi.Resource2.arkaplan2;
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.flowLayoutPanelCagri);
+            this.Controls.Add(this.btnGecmis);
+            this.Controls.Add(this.btnGuncel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CagriEkrani";
             this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.OturumAcma_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanelCagri.ResumeLayout(false);
             this.pnlGuncel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.pnlGuncel.PerformLayout();
+            this.pnlGecmis.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewGecmis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewGuncel)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Timer timerYenileyici;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button btnGuncel;
+        private System.Windows.Forms.Button btnGecmis;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelCagri;
         private System.Windows.Forms.Panel pnlGuncel;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel pnlGecmis;
+        private System.Windows.Forms.ComboBox cbMahalle;
+        private System.Windows.Forms.DataGridView dataGridViewGecmis;
+        private System.Windows.Forms.Button btnCagriGuncelle;
+        private System.Windows.Forms.ComboBox cmb_durum;
+        private System.Windows.Forms.Label lbl_durum;
+        private System.Windows.Forms.DataGridView dataGridViewGuncel;
     }
 }
 

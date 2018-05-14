@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kullanıcılar));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnKullaniciEkle = new System.Windows.Forms.Button();
             this.btnKullaniciSil = new System.Windows.Forms.Button();
             this.bntKullaniciBilgi = new System.Windows.Forms.Button();
@@ -76,6 +76,7 @@
             this.silToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cmb_kullanıcıtc = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanelKullanici = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnReturnAnaEkran = new System.Windows.Forms.Button();
             this.pnlKullaniciBilgi.SuspendLayout();
             this.pnlKullaniciEkle.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -384,9 +385,9 @@
             // 
             // dataGridViewKullanici
             // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            this.dataGridViewKullanici.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.dataGridViewKullanici.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewKullanici.BackgroundColor = System.Drawing.Color.PowderBlue;
             this.dataGridViewKullanici.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewKullanici.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
@@ -395,9 +396,9 @@
             this.dataGridViewKullanici.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             resources.ApplyResources(this.dataGridViewKullanici, "dataGridViewKullanici");
             this.dataGridViewKullanici.Name = "dataGridViewKullanici";
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            this.dataGridViewKullanici.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.dataGridViewKullanici.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewKullanici.MouseDown += new System.Windows.Forms.MouseEventHandler(this.dataGridViewKullanici_MouseDown);
             // 
             // contextMenuStrip_Sil
@@ -427,10 +428,20 @@
             resources.ApplyResources(this.flowLayoutPanelKullanici, "flowLayoutPanelKullanici");
             this.flowLayoutPanelKullanici.Name = "flowLayoutPanelKullanici";
             // 
+            // btnReturnAnaEkran
+            // 
+            this.btnReturnAnaEkran.BackColor = System.Drawing.Color.Transparent;
+            this.btnReturnAnaEkran.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnReturnAnaEkran, "btnReturnAnaEkran");
+            this.btnReturnAnaEkran.Name = "btnReturnAnaEkran";
+            this.btnReturnAnaEkran.UseVisualStyleBackColor = false;
+            this.btnReturnAnaEkran.Click += new System.EventHandler(this.btnReturnAnaEkran_Click);
+            // 
             // Kullanıcılar
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnReturnAnaEkran);
             this.Controls.Add(this.flowLayoutPanelKullanici);
             this.Controls.Add(this.btnKullaniciAyar);
             this.Controls.Add(this.btnKullaniciSil);
@@ -504,5 +515,6 @@
         private System.Windows.Forms.Label lbl_kartID;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_Sil;
         private System.Windows.Forms.ToolStripMenuItem silToolStripMenuItem;
+        private System.Windows.Forms.Button btnReturnAnaEkran;
     }
 }

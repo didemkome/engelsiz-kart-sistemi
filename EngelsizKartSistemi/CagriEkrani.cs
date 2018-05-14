@@ -26,16 +26,20 @@ namespace EngelsizKartSistemi
 
         private void OturumAcma_Load(object sender, EventArgs e)
         {
-            timerYenileyici.Start();
+            flowLayoutPanelCagri.Controls.Clear();
+            flowLayoutPanelCagri.Controls.Add(pnlGuncel);
+
+            pnlGecmis.Visible = false;
+            pnlGuncel.Visible = true;
+
+            dataGridViewGuncel.Visible = true;
+            dataGridViewGecmis.Visible = false;
+
+            //timerYenileyici.Start();
             DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
             columnHeaderStyle.BackColor = Color.Beige;
             columnHeaderStyle.Font = new Font("Arial", 9);
             //dataGridView_engelli.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
-        }
-
-        private void btnKullaniciGetir_Click(object sender, EventArgs e)
-        {
-           
         }
 
         private void timerYenileyici_Tick(object sender, EventArgs e)
@@ -62,9 +66,52 @@ namespace EngelsizKartSistemi
             //timerYenileyici.Stop();*/
         }
 
-        private void dataGridView_engelli_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnCagriGuncelle_Click(object sender, EventArgs e)
         {
+            try
+            {
+                connect.baglanticontrol();
 
+                pnlGuncel.Visible = true;
+                pnlGecmis.Visible = false;
+
+
+                dataGridViewGuncel.Visible = true;
+                cmb_durum.Text = "Filtrele";
+                connect.baglantıacmak();
+                komut.CommandText = "Insert Into Yardim(durum) values('" + cmb_durum.Text + "')";
+                komut.ExecuteNonQuery();
+
+
+                //da = new SqlDataAdapter("Select kartID, TC, adi, soyadi, engeli, telefonu, yakinTelefonu, sonuc, yardimTarihiSaati, ekNot " +
+                //    "From Yardim, Kullanici, Kart, RaspAdres where Yardim.kartID = Kart.kartID", connect.baglantıadresi());
+                //dataGridViewGuncel.DataSource = dt;
+                //SqlCommandBuilder cmdb = new SqlCommandBuilder(da);
+                //da.Update(dt);
+                dataGridViewGuncel.ClearSelection();
+                dt.Clear();
+                dt.Columns.Clear();
+                dataGridViewGuncel.DataSource = null;
+
+                dataGridViewGuncel.Refresh();
+                string KullaniciTC;
+                KullaniciTC = cmb_kullanıcıtc.SelectedItem.ToString();
+                da = new SqlDataAdapter("Select * From Kullanici where TC = '" + KullaniciTC + "'", connect.baglantıadresi());
+                da.Fill(dt);
+                dataGridViewKullanici.DataSource = dt;
+                dt.Dispose();
+                da.Dispose();
+                dr.Close();
+                connect.baglantıkapamak();
+                MessageBox.Show("Kayıt güncellendi!", "Bilgilendirme Penceresi", MessageBoxButtons.OK);
+                komut.Clone();
+
+                connect.baglantıkapamak();
+            }
+            catch
+            {
+                MessageBox.Show("Hata! Kayıt Güncellenemedi", "Bilgilendirme Penceresi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

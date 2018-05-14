@@ -145,7 +145,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKullaniciEkle.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnKullaniciSil.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -175,7 +175,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKullaniciSil.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="bntKullaniciBilgi.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -202,7 +202,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bntKullaniciBilgi.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnKullaniciAyar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
@@ -229,7 +229,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKullaniciAyar.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="txt_kartID.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
@@ -320,534 +320,6 @@
   </data>
   <data name="&gt;&gt;btnEkle.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
-  </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tbTarif.Name" xml:space="preserve">
-    <value>tbTarif</value>
-  </data>
-  <data name="&gt;&gt;tbTarif.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbTarif.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;tbTarif.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;tbSokak.Name" xml:space="preserve">
-    <value>tbSokak</value>
-  </data>
-  <data name="&gt;&gt;tbSokak.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbSokak.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;tbSokak.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;tbMahalle.Name" xml:space="preserve">
-    <value>tbMahalle</value>
-  </data>
-  <data name="&gt;&gt;tbMahalle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbMahalle.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;tbMahalle.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tbİlce.Name" xml:space="preserve">
-    <value>tbİlce</value>
-  </data>
-  <data name="&gt;&gt;tbİlce.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbİlce.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;tbİlce.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;cbİl.Name" xml:space="preserve">
-    <value>cbİl</value>
-  </data>
-  <data name="&gt;&gt;cbİl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbİl.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;cbİl.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>393, 23</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>310, 215</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Kullanıcı Adres Bilgileri</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>pnlKullaniciEkle</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblYakinTelefon.Name" xml:space="preserve">
-    <value>lblYakinTelefon</value>
-  </data>
-  <data name="&gt;&gt;lblYakinTelefon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblYakinTelefon.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;lblYakinTelefon.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblYakinSoyad.Name" xml:space="preserve">
-    <value>lblYakinSoyad</value>
-  </data>
-  <data name="&gt;&gt;lblYakinSoyad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblYakinSoyad.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;lblYakinSoyad.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tbYakinTelefon.Name" xml:space="preserve">
-    <value>tbYakinTelefon</value>
-  </data>
-  <data name="&gt;&gt;tbYakinTelefon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbYakinTelefon.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;tbYakinTelefon.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblYakinAd.Name" xml:space="preserve">
-    <value>lblYakinAd</value>
-  </data>
-  <data name="&gt;&gt;lblYakinAd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblYakinAd.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;lblYakinAd.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tbYakinAd.Name" xml:space="preserve">
-    <value>tbYakinAd</value>
-  </data>
-  <data name="&gt;&gt;tbYakinAd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbYakinAd.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;tbYakinAd.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tbYakinSoyad.Name" xml:space="preserve">
-    <value>tbYakinSoyad</value>
-  </data>
-  <data name="&gt;&gt;tbYakinSoyad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbYakinSoyad.Parent" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;tbYakinSoyad.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupBoxYakin.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="groupBoxYakin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 200</value>
-  </data>
-  <data name="groupBoxYakin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 109</value>
-  </data>
-  <data name="groupBoxYakin.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="groupBoxYakin.Text" xml:space="preserve">
-    <value>Yakının Bilgileri</value>
-  </data>
-  <data name="&gt;&gt;groupBoxYakin.Name" xml:space="preserve">
-    <value>groupBoxYakin</value>
-  </data>
-  <data name="&gt;&gt;groupBoxYakin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxYakin.Parent" xml:space="preserve">
-    <value>pnlKullaniciEkle</value>
-  </data>
-  <data name="&gt;&gt;groupBoxYakin.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciEkleTc.Name" xml:space="preserve">
-    <value>tbKullaniciEkleTc</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciEkleTc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciEkleTc.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciEkleTc.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciTelefon.Name" xml:space="preserve">
-    <value>tbKullaniciTelefon</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciTelefon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciTelefon.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciTelefon.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblKulliniTelefon.Name" xml:space="preserve">
-    <value>lblKulliniTelefon</value>
-  </data>
-  <data name="&gt;&gt;lblKulliniTelefon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblKulliniTelefon.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;lblKulliniTelefon.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciEngel.Name" xml:space="preserve">
-    <value>lblKullaniciEngel</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciEngel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciEngel.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciEngel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciSoyad.Name" xml:space="preserve">
-    <value>lblKullaniciSoyad</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciSoyad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciSoyad.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciSoyad.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciAd.Name" xml:space="preserve">
-    <value>lblKullaniciAd</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciAd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciAd.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;lblKullaniciAd.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;cbKullaniciEngel.Name" xml:space="preserve">
-    <value>cbKullaniciEngel</value>
-  </data>
-  <data name="&gt;&gt;cbKullaniciEngel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbKullaniciEngel.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;cbKullaniciEngel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciAd.Name" xml:space="preserve">
-    <value>tbKullaniciAd</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciAd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciAd.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciAd.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciSoyad.Name" xml:space="preserve">
-    <value>tbKullaniciSoyad</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciSoyad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciSoyad.Parent" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;tbKullaniciSoyad.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="groupBoxKullanici.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="groupBoxKullanici.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 25</value>
-  </data>
-  <data name="groupBoxKullanici.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 169</value>
-  </data>
-  <data name="groupBoxKullanici.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="groupBoxKullanici.Text" xml:space="preserve">
-    <value>Kullanıcı Bilgileri</value>
-  </data>
-  <data name="&gt;&gt;groupBoxKullanici.Name" xml:space="preserve">
-    <value>groupBoxKullanici</value>
-  </data>
-  <data name="&gt;&gt;groupBoxKullanici.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBoxKullanici.Parent" xml:space="preserve">
-    <value>pnlKullaniciEkle</value>
-  </data>
-  <data name="&gt;&gt;groupBoxKullanici.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="pnlKullaniciEkle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="pnlKullaniciEkle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 3</value>
-  </data>
-  <data name="pnlKullaniciEkle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 316</value>
-  </data>
-  <data name="pnlKullaniciEkle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciEkle.Name" xml:space="preserve">
-    <value>pnlKullaniciEkle</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciEkle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciEkle.Parent" xml:space="preserve">
-    <value>pnlKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciEkle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 41</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 13</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>T.C. Kimlik Numarası</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>pnlKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="contextMenuStrip_Sil.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="silToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="silToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sil</value>
-  </data>
-  <data name="contextMenuStrip_Sil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 26</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip_Sil.Name" xml:space="preserve">
-    <value>contextMenuStrip_Sil</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip_Sil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dataGridViewKullanici.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 70</value>
-  </data>
-  <data name="dataGridViewKullanici.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 181</value>
-  </data>
-  <data name="dataGridViewKullanici.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewKullanici.Name" xml:space="preserve">
-    <value>dataGridViewKullanici</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewKullanici.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewKullanici.Parent" xml:space="preserve">
-    <value>pnlKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewKullanici.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cmb_kullanıcıtc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 38</value>
-  </data>
-  <data name="cmb_kullanıcıtc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>484, 21</value>
-  </data>
-  <data name="cmb_kullanıcıtc.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;cmb_kullanıcıtc.Name" xml:space="preserve">
-    <value>cmb_kullanıcıtc</value>
-  </data>
-  <data name="&gt;&gt;cmb_kullanıcıtc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmb_kullanıcıtc.Parent" xml:space="preserve">
-    <value>pnlKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;cmb_kullanıcıtc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlKullaniciBilgi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="pnlKullaniciBilgi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 319</value>
-  </data>
-  <data name="pnlKullaniciBilgi.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciBilgi.Name" xml:space="preserve">
-    <value>pnlKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciBilgi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciBilgi.Parent" xml:space="preserve">
-    <value>flowLayoutPanelKullanici</value>
-  </data>
-  <data name="&gt;&gt;pnlKullaniciBilgi.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1098,6 +570,33 @@
   <data name="&gt;&gt;cbİl.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 23</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 215</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Kullanıcı Adres Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>pnlKullaniciEkle</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="lblYakinTelefon.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1250,6 +749,33 @@
   </data>
   <data name="&gt;&gt;tbYakinSoyad.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="groupBoxYakin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="groupBoxYakin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 200</value>
+  </data>
+  <data name="groupBoxYakin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 109</value>
+  </data>
+  <data name="groupBoxYakin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="groupBoxYakin.Text" xml:space="preserve">
+    <value>Yakının Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;groupBoxYakin.Name" xml:space="preserve">
+    <value>groupBoxYakin</value>
+  </data>
+  <data name="&gt;&gt;groupBoxYakin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxYakin.Parent" xml:space="preserve">
+    <value>pnlKullaniciEkle</value>
+  </data>
+  <data name="&gt;&gt;groupBoxYakin.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1506,6 +1032,168 @@
   <data name="&gt;&gt;tbKullaniciSoyad.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="groupBoxKullanici.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="groupBoxKullanici.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 25</value>
+  </data>
+  <data name="groupBoxKullanici.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 169</value>
+  </data>
+  <data name="groupBoxKullanici.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBoxKullanici.Text" xml:space="preserve">
+    <value>Kullanıcı Bilgileri</value>
+  </data>
+  <data name="&gt;&gt;groupBoxKullanici.Name" xml:space="preserve">
+    <value>groupBoxKullanici</value>
+  </data>
+  <data name="&gt;&gt;groupBoxKullanici.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxKullanici.Parent" xml:space="preserve">
+    <value>pnlKullaniciEkle</value>
+  </data>
+  <data name="&gt;&gt;groupBoxKullanici.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="pnlKullaniciEkle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlKullaniciEkle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="pnlKullaniciEkle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 316</value>
+  </data>
+  <data name="pnlKullaniciEkle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciEkle.Name" xml:space="preserve">
+    <value>pnlKullaniciEkle</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciEkle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciEkle.Parent" xml:space="preserve">
+    <value>pnlKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciEkle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 41</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>T.C. Kimlik Numarası</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>pnlKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="contextMenuStrip_Sil.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="silToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="silToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="contextMenuStrip_Sil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 26</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip_Sil.Name" xml:space="preserve">
+    <value>contextMenuStrip_Sil</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip_Sil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewKullanici.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 70</value>
+  </data>
+  <data name="dataGridViewKullanici.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 181</value>
+  </data>
+  <data name="dataGridViewKullanici.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewKullanici.Name" xml:space="preserve">
+    <value>dataGridViewKullanici</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewKullanici.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewKullanici.Parent" xml:space="preserve">
+    <value>pnlKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewKullanici.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmb_kullanıcıtc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 38</value>
+  </data>
+  <data name="cmb_kullanıcıtc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 21</value>
+  </data>
+  <data name="cmb_kullanıcıtc.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmb_kullanıcıtc.Name" xml:space="preserve">
+    <value>cmb_kullanıcıtc</value>
+  </data>
+  <data name="&gt;&gt;cmb_kullanıcıtc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_kullanıcıtc.Parent" xml:space="preserve">
+    <value>pnlKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;cmb_kullanıcıtc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlKullaniciBilgi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlKullaniciBilgi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>776, 319</value>
+  </data>
+  <data name="pnlKullaniciBilgi.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciBilgi.Name" xml:space="preserve">
+    <value>pnlKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciBilgi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciBilgi.Parent" xml:space="preserve">
+    <value>flowLayoutPanelKullanici</value>
+  </data>
+  <data name="&gt;&gt;pnlKullaniciBilgi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="flowLayoutPanelKullanici.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -1528,7 +1216,41 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanelKullanici.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="btnReturnAnaEkran.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnReturnAnaEkran.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4QwYBx0Fy9h+4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABtSURBVDhP
+        Yxh84P///0x/v37NhHJJAyDNf75/n/Xn27cQqBDxAKz569c5lGieS4nmeWRpBgGgxkO/v33rB9IRpOLf
+        X754MAAD7TBFBlDsBRCgKBBhgKJohAGwIeQmJBgAGfL327c8KHfQAwYGAJfKw7HjITNVAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnReturnAnaEkran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1</value>
+  </data>
+  <data name="btnReturnAnaEkran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 39</value>
+  </data>
+  <data name="btnReturnAnaEkran.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Name" xml:space="preserve">
+    <value>btnReturnAnaEkran</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

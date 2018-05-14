@@ -373,5 +373,12 @@ namespace EngelsizKartSistemi
             //}
             MessageBox.Show(kullanicisil);
         }
+
+        private void btnReturnAnaEkran_Click(object sender, EventArgs e)
+        {
+            AnaEkran anaekran = new AnaEkran();
+            anaekran.Show();
+            this.Hide();
+        }
     }
 }

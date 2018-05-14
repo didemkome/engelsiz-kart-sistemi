@@ -121,7 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnGuncel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA+gAAAHNCAYAAACNXVFIAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAP+iSURBVHhe7P2JkSU3lm0N/wqUAhSgFEgFqAAFoAKp
@@ -5516,41 +5516,41 @@
 </value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnGuncel.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnGuncel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnGuncel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnGuncel.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 11</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnGuncel.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 125</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnGuncel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="btnGuncel.Text" xml:space="preserve">
     <value>Güncel Çağrılar</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;btnGuncel.Name" xml:space="preserve">
+    <value>btnGuncel</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnGuncel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnGuncel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnGuncel.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnGecmis.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAA+gAAAHNCAYAAACNXVFIAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
         dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAP+iSURBVHhe7P2JkSU3lm0N/wqUAhSgFEgFqAAFoAKp
@@ -10944,83 +10944,200 @@
         8n/9X/8/iLCjzrmjbywAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnGecmis.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnGecmis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnGecmis.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnGecmis.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnGecmis.Location" type="System.Drawing.Point, System.Drawing">
     <value>156, 11</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnGecmis.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 125</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnGecmis.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="btnGecmis.Text" xml:space="preserve">
     <value>Geçmiş Çağrılar</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;btnGecmis.Name" xml:space="preserve">
+    <value>btnGecmis</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnGecmis.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnGecmis.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnGecmis.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="cbMahalle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 42</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>773, 295</value>
+  <data name="cbMahalle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 24</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="cbMahalle.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;cbMahalle.Name" xml:space="preserve">
+    <value>cbMahalle</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cbMahalle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>pnlGuncel</value>
+  <data name="&gt;&gt;cbMahalle.Parent" xml:space="preserve">
+    <value>pnlGecmis</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cbMahalle.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 54</value>
+  <data name="dataGridViewGecmis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 72</value>
   </data>
-  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 172</value>
+  <data name="dataGridViewGecmis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 191</value>
   </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="dataGridViewGecmis.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
+  <data name="&gt;&gt;dataGridViewGecmis.Name" xml:space="preserve">
+    <value>dataGridViewGecmis</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;dataGridViewGecmis.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dataGridViewGecmis.Parent" xml:space="preserve">
+    <value>pnlGecmis</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewGecmis.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlGecmis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlGecmis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>773, 295</value>
+  </data>
+  <data name="pnlGecmis.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlGecmis.Name" xml:space="preserve">
+    <value>pnlGecmis</value>
+  </data>
+  <data name="&gt;&gt;pnlGecmis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlGecmis.Parent" xml:space="preserve">
     <value>pnlGuncel</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pnlGecmis.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewGuncel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 60</value>
+  </data>
+  <data name="dataGridViewGuncel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>611, 217</value>
+  </data>
+  <data name="dataGridViewGuncel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewGuncel.Name" xml:space="preserve">
+    <value>dataGridViewGuncel</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewGuncel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewGuncel.Parent" xml:space="preserve">
+    <value>pnlGuncel</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewGuncel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="cmb_durum.Items" xml:space="preserve">
+    <value>Ambulans Gönderildi</value>
+  </data>
+  <data name="cmb_durum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 25</value>
+  </data>
+  <data name="cmb_durum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 24</value>
+  </data>
+  <data name="cmb_durum.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmb_durum.Name" xml:space="preserve">
+    <value>cmb_durum</value>
+  </data>
+  <data name="&gt;&gt;cmb_durum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmb_durum.Parent" xml:space="preserve">
+    <value>pnlGuncel</value>
+  </data>
+  <data name="&gt;&gt;cmb_durum.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_durum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_durum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 31</value>
+  </data>
+  <data name="lbl_durum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 16</value>
+  </data>
+  <data name="lbl_durum.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbl_durum.Text" xml:space="preserve">
+    <value>Durum : </value>
+  </data>
+  <data name="&gt;&gt;lbl_durum.Name" xml:space="preserve">
+    <value>lbl_durum</value>
+  </data>
+  <data name="&gt;&gt;lbl_durum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_durum.Parent" xml:space="preserve">
+    <value>pnlGuncel</value>
+  </data>
+  <data name="&gt;&gt;lbl_durum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnCagriGuncelle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 22</value>
+  </data>
+  <data name="btnCagriGuncelle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="btnCagriGuncelle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCagriGuncelle.Text" xml:space="preserve">
+    <value>Durum Güncelle</value>
+  </data>
+  <data name="&gt;&gt;btnCagriGuncelle.Name" xml:space="preserve">
+    <value>btnCagriGuncelle</value>
+  </data>
+  <data name="&gt;&gt;btnCagriGuncelle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCagriGuncelle.Parent" xml:space="preserve">
+    <value>pnlGuncel</value>
+  </data>
+  <data name="&gt;&gt;btnCagriGuncelle.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="pnlGuncel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -11038,33 +11155,33 @@
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pnlGuncel.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
+    <value>flowLayoutPanelCagri</value>
   </data>
   <data name="&gt;&gt;pnlGuncel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="flowLayoutPanelCagri.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="flowLayoutPanelCagri.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 142</value>
   </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="flowLayoutPanelCagri.Size" type="System.Drawing.Size, System.Drawing">
     <value>779, 304</value>
   </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="flowLayoutPanelCagri.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
+  <data name="&gt;&gt;flowLayoutPanelCagri.Name" xml:space="preserve">
+    <value>flowLayoutPanelCagri</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;flowLayoutPanelCagri.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;flowLayoutPanelCagri.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;flowLayoutPanelCagri.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
