@@ -16,7 +16,7 @@ namespace EngelsizKartSistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CagriEkrani());
+            Application.Run(new Kullanıcılar());
         }
     }
 }

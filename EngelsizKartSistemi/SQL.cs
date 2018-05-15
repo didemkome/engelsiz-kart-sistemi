@@ -11,7 +11,7 @@ namespace EngelsizKartSistemi
     class SQL
     {
         SqlCommand komut = new SqlCommand();
-        SqlConnection baglanti = new SqlConnection("server=DESKTOP-R4TJ1GG;Initial Catalog=EngelsizKartSistemi;Integrated Security=true");
+        SqlConnection baglanti = new SqlConnection("Data Source=den1.mssql6.gear.host;Initial Catalog=kartsistemi;User ID=kartsistemi; Password=123456.");
 
         public SqlConnection baglantıadresi()
         {

@@ -148,8 +148,7 @@ namespace EngelsizKartSistemi
 
             connect.baglantıacmak();
             cbKullaniciEngel.Text = "Filtrele";
-            cbİl.Text = "Filtrele";
-            komut.CommandText = "SELECT distinct engeli,il FROM Kullanici,Adres";
+            komut.CommandText = "SELECT distinct engeli FROM Kullanici";
             komut.Connection = connect.baglantıadresi();
             komut.CommandType = CommandType.Text;
 
@@ -157,7 +156,6 @@ namespace EngelsizKartSistemi
             while (dr.Read())
             {
                 cbKullaniciEngel.Items.Add(dr["engeli"]);
-                cbİl.Items.Add(dr["il"]);
             }
             dr.Close();
             connect.baglantıkapamak();
@@ -266,11 +264,6 @@ namespace EngelsizKartSistemi
                     komut.Parameters.AddWithValue("@yakinSoyadi", SqlDbType.NVarChar).Value = tbYakinSoyad.Text.Trim();
                     komut.Parameters.AddWithValue("@yakinTelefonu", SqlDbType.NVarChar).Value = tbYakinTelefon.Text.Trim();
                     komut.Parameters.AddWithValue("@telefonu", SqlDbType.NVarChar).Value = tbKullaniciTelefon.Text.Trim();
-                    komut.Parameters.AddWithValue("@mahalle", SqlDbType.NVarChar).Value = tbMahalle.Text.Trim();
-                    komut.Parameters.AddWithValue("@sokakCaddeBulvar", SqlDbType.NVarChar).Value = tbSokak.Text.Trim();
-                    komut.Parameters.AddWithValue("@il", SqlDbType.NVarChar).Value = cbİl.SelectedItem.ToString().Trim();
-                    komut.Parameters.AddWithValue("@ilce", SqlDbType.NVarChar).Value = tbİlce.Text.Trim();
-                    komut.Parameters.AddWithValue("@adresTarifi", SqlDbType.NVarChar).Value = tbTarif.Text.Trim();
                     komut.Parameters.AddWithValue("@kartID", SqlDbType.NVarChar).Value = txt_kartID.Text.Trim();
                     komut.ExecuteNonQuery();
                     //komut.Parameters.AddWithValue("@adresID", SqlDbType.Int).Value = int.Parse(AdresID);

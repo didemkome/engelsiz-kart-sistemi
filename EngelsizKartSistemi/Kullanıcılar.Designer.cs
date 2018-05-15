@@ -41,17 +41,6 @@
             this.txt_kartID = new System.Windows.Forms.TextBox();
             this.lbl_kartID = new System.Windows.Forms.Label();
             this.btnEkle = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tbTarif = new System.Windows.Forms.TextBox();
-            this.tbSokak = new System.Windows.Forms.TextBox();
-            this.tbMahalle = new System.Windows.Forms.TextBox();
-            this.tbİlce = new System.Windows.Forms.TextBox();
-            this.cbİl = new System.Windows.Forms.ComboBox();
             this.groupBoxYakin = new System.Windows.Forms.GroupBox();
             this.lblYakinTelefon = new System.Windows.Forms.Label();
             this.lblYakinSoyad = new System.Windows.Forms.Label();
@@ -79,7 +68,6 @@
             this.btnReturnAnaEkran = new System.Windows.Forms.Button();
             this.pnlKullaniciBilgi.SuspendLayout();
             this.pnlKullaniciEkle.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBoxYakin.SuspendLayout();
             this.groupBoxKullanici.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewKullanici)).BeginInit();
@@ -154,7 +142,6 @@
             this.pnlKullaniciEkle.Controls.Add(this.txt_kartID);
             this.pnlKullaniciEkle.Controls.Add(this.lbl_kartID);
             this.pnlKullaniciEkle.Controls.Add(this.btnEkle);
-            this.pnlKullaniciEkle.Controls.Add(this.groupBox1);
             this.pnlKullaniciEkle.Controls.Add(this.groupBoxYakin);
             this.pnlKullaniciEkle.Controls.Add(this.groupBoxKullanici);
             resources.ApplyResources(this.pnlKullaniciEkle, "pnlKullaniciEkle");
@@ -180,78 +167,6 @@
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.tbTarif);
-            this.groupBox1.Controls.Add(this.tbSokak);
-            this.groupBox1.Controls.Add(this.tbMahalle);
-            this.groupBox1.Controls.Add(this.tbİlce);
-            this.groupBox1.Controls.Add(this.cbİl);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
-            // 
-            // label6
-            // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label6.Name = "label6";
-            // 
-            // label5
-            // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label5.Name = "label5";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label4.Name = "label4";
-            // 
-            // label3
-            // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label3.Name = "label3";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label2.Name = "label2";
-            // 
-            // tbTarif
-            // 
-            resources.ApplyResources(this.tbTarif, "tbTarif");
-            this.tbTarif.Name = "tbTarif";
-            // 
-            // tbSokak
-            // 
-            resources.ApplyResources(this.tbSokak, "tbSokak");
-            this.tbSokak.Name = "tbSokak";
-            // 
-            // tbMahalle
-            // 
-            resources.ApplyResources(this.tbMahalle, "tbMahalle");
-            this.tbMahalle.Name = "tbMahalle";
-            // 
-            // tbİlce
-            // 
-            resources.ApplyResources(this.tbİlce, "tbİlce");
-            this.tbİlce.Name = "tbİlce";
-            // 
-            // cbİl
-            // 
-            this.cbİl.FormattingEnabled = true;
-            resources.ApplyResources(this.cbİl, "cbİl");
-            this.cbİl.Name = "cbİl";
             // 
             // groupBoxYakin
             // 
@@ -456,8 +371,6 @@
             this.pnlKullaniciBilgi.PerformLayout();
             this.pnlKullaniciEkle.ResumeLayout(false);
             this.pnlKullaniciEkle.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBoxYakin.ResumeLayout(false);
             this.groupBoxYakin.PerformLayout();
             this.groupBoxKullanici.ResumeLayout(false);
@@ -494,17 +407,6 @@
         private System.Windows.Forms.Label lblKulliniTelefon;
         private System.Windows.Forms.Label lblKullaniciEngel;
         private System.Windows.Forms.Label lblKullaniciSoyad;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbTarif;
-        private System.Windows.Forms.TextBox tbSokak;
-        private System.Windows.Forms.TextBox tbMahalle;
-        private System.Windows.Forms.TextBox tbİlce;
-        private System.Windows.Forms.ComboBox cbİl;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tbKullaniciEkleTc;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelKullanici;

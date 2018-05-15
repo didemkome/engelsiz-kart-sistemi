@@ -99,7 +99,7 @@ namespace EngelsizKartSistemi
             //    dataGridViewGuncel.ReadOnly = false;
 
             //    cmb_durum.Text = "Filtrele";
-            //    komut.CommandText = "Insert Into Yardim(durum) values('" + cmb_durum.Text + "')";
+             //    komut.CommandText = "Insert Into Yardim (durum) values('" + cmb_durum.Text + "')";
             //    komut.ExecuteNonQuery();
 
             //    //da = new SqlDataAdapter("Select kartID, TC, adi, soyadi, engeli, telefonu, yakinTelefonu, sonuc, yardimTarihiSaati, ekNot " +
