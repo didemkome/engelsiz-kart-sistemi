@@ -38,10 +38,11 @@
             this.pnlGecmis = new System.Windows.Forms.Panel();
             this.cbMahalle = new System.Windows.Forms.ComboBox();
             this.dataGridViewGecmis = new System.Windows.Forms.DataGridView();
-            this.btnCagriGuncelle = new System.Windows.Forms.Button();
-            this.lbl_durum = new System.Windows.Forms.Label();
             this.dataGridViewGuncel = new System.Windows.Forms.DataGridView();
             this.cmb_durum = new System.Windows.Forms.ComboBox();
+            this.lbl_durum = new System.Windows.Forms.Label();
+            this.btnCagriGuncelle = new System.Windows.Forms.Button();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             this.flowLayoutPanelCagri.SuspendLayout();
             this.pnlGuncel.SuspendLayout();
             this.pnlGecmis.SuspendLayout();
@@ -108,23 +109,12 @@
             resources.ApplyResources(this.dataGridViewGecmis, "dataGridViewGecmis");
             this.dataGridViewGecmis.Name = "dataGridViewGecmis";
             // 
-            // btnCagriGuncelle
-            // 
-            resources.ApplyResources(this.btnCagriGuncelle, "btnCagriGuncelle");
-            this.btnCagriGuncelle.Name = "btnCagriGuncelle";
-            this.btnCagriGuncelle.UseVisualStyleBackColor = true;
-            this.btnCagriGuncelle.Click += new System.EventHandler(this.btnCagriGuncelle_Click);
-            // 
-            // lbl_durum
-            // 
-            resources.ApplyResources(this.lbl_durum, "lbl_durum");
-            this.lbl_durum.Name = "lbl_durum";
-            // 
             // dataGridViewGuncel
             // 
             this.dataGridViewGuncel.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dataGridViewGuncel, "dataGridViewGuncel");
             this.dataGridViewGuncel.Name = "dataGridViewGuncel";
+            this.dataGridViewGuncel.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewGuncel_CellEnter);
             // 
             // cmb_durum
             // 
@@ -133,6 +123,18 @@
             resources.GetString("cmb_durum.Items")});
             resources.ApplyResources(this.cmb_durum, "cmb_durum");
             this.cmb_durum.Name = "cmb_durum";
+            // 
+            // lbl_durum
+            // 
+            resources.ApplyResources(this.lbl_durum, "lbl_durum");
+            this.lbl_durum.Name = "lbl_durum";
+            // 
+            // btnCagriGuncelle
+            // 
+            resources.ApplyResources(this.btnCagriGuncelle, "btnCagriGuncelle");
+            this.btnCagriGuncelle.Name = "btnCagriGuncelle";
+            this.btnCagriGuncelle.UseVisualStyleBackColor = true;
+            this.btnCagriGuncelle.Click += new System.EventHandler(this.btnCagriGuncelle_Click);
             // 
             // CagriEkrani
             // 
@@ -172,6 +174,7 @@
         private System.Windows.Forms.ComboBox cmb_durum;
         private System.Windows.Forms.Label lbl_durum;
         private System.Windows.Forms.DataGridView dataGridViewGuncel;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
