@@ -17,129 +17,187 @@ namespace EngelsizKartSistemi
         SQL connect = new SQL();
         SqlCommand komut = new SqlCommand();
         DataTable dt = new DataTable();
-        SqlDataReader dr;
+        //SqlDataReader dr;
         SqlDataAdapter da;
-        private bool bIsComboBox;
-        delegate void SetComboBoxCellType(int iRowIndex);
 
         public CagriEkrani()
         {
             InitializeComponent();
         }
+        public void datagridfiltesiz(string butonname)
+        {
+            if (butonname == "Güncel")
+            {
+
+                dataGridViewGuncel.ClearSelection();
+                dt.Clear();
+                dt.Columns.Clear();
+                dataGridViewGuncel.DataSource = null;
+
+                dataGridViewGuncel.Refresh();
+
+                da = new SqlDataAdapter("Select TC [TC], adi[Adı], soyadi[Soyadı], engeli[Engeli], telefon[Telefonu], yakinTelefonu[Yakın Telefonu], durum[Durum], sonuc[Sonuç], yardimTarihiSaati[Yardım Tarihi/Saati], mahalle[Mahalle], sokakCaddeBulvar[Sokak/Cadde/Bulvar], il[İl], ilce[İlçe] " +
+                   "From Yardim, Kullanici, Raspberry where Kullanici.KartID = Yardim.KartID and Yardim.raspberryID = Raspberry.raspberryID and durum not like 'Kapandi'", connect.baglantıadresi());
+                da.Fill(dt);
+                dataGridViewGuncel.DataSource = dt;
+                dt.Dispose();
+                da.Dispose();
+                dataGridViewGuncel.AutoResizeColumns();
+                dataGridViewGuncel.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
+                columnHeaderStyle.BackColor = Color.Beige;
+                columnHeaderStyle.Font = new Font("Arial", 9);
+                dataGridViewGuncel.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
+
+            }
+            else if (butonname == "Gecmis")
+            {
+                dataGridViewGecmis.ClearSelection();
+                dt.Clear();
+                dt.Columns.Clear();
+                dataGridViewGecmis.DataSource = null;
+
+                dataGridViewGecmis.Refresh();
+                da = new SqlDataAdapter("Select TC [TC], adi[Adı], soyadi[Soyadı], engeli[Engeli], telefon[Telefonu], yakinTelefonu[Yakın Telefonu], durum[Durum], sonuc[Sonuç], yardimTarihiSaati[Yardım Tarihi/Saati], mahalle[Mahalle], sokakCaddeBulvar[Sokak/Cadde/Bulvar], il[İl], ilce[İlçe] " +
+                    "From Yardim, Kullanici, Raspberry where Kullanici.KartID = Yardim.KartID and Yardim.raspberryID = Raspberry.raspberryID and Yardim.durum like 'Kapandi'", connect.baglantıadresi());
+                da.Fill(dt);
+                dataGridViewGecmis.DataSource = dt;
+                dt.Dispose();
+                da.Dispose();
+                dataGridViewGecmis.AutoResizeColumns();
+                dataGridViewGecmis.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
+                columnHeaderStyle.BackColor = Color.Beige;
+                columnHeaderStyle.Font = new Font("Arial", 9);
+                dataGridViewGecmis.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
+            }
+        }
         private void OturumAcma_Load(object sender, EventArgs e)
         {
+            timer_Güncel.Start();
+            connect.baglanticontrol();
             flowLayoutPanelCagri.Controls.Clear();
             flowLayoutPanelCagri.Controls.Add(pnlGuncel);
 
             pnlGecmis.Visible = false;
             pnlGuncel.Visible = true;
 
-            dataGridViewGuncel.Visible = true;
             dataGridViewGecmis.Visible = false;
-
-            //timerYenileyici.Start();
-            DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
-            columnHeaderStyle.BackColor = Color.Beige;
-            columnHeaderStyle.Font = new Font("Arial", 9);
-            dataGridViewGuncel.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
-            dataGridViewGuncel.ClearSelection();
-            dt.Clear();
-            dt.Columns.Clear();
-            dataGridViewGuncel.DataSource = null;
-            dataGridViewGuncel.Refresh();
-
-            //da = new SqlDataAdapter("Select * from Kullanici", connect.baglantıadresi());
-
-            da = new SqlDataAdapter("Select Kart.kartID, Kullanici.TC, adi, soyadi, engeli, telefonu, yakinTelefonu, durum, sonuc, yardimTarihiSaati, mahalle, sokakCaddeBulvar, il, ilce " +
-                    "From Yardim, Kullanici, Kart, Raspberry where Yardim.kartID = Kart.kartID and Kullanici.TC = Kart.TC and Yardim.raspberryID = Raspberry.raspberryID", connect.baglantıadresi());
-
-            da.Fill(dt);
-            dataGridViewGuncel.DataSource = dt;
-            dt.Dispose();
-            da.Dispose();
+            dataGridViewGuncel.Visible = true;
+           
+            datagridfiltesiz("Güncel");
             connect.baglantıkapamak();
-        }
-
-        private void timerYenileyici_Tick(object sender, EventArgs e)
-        {/*
-            connect.baglanticontrol();
-            AnaPanel.Visible = true;
-            dataGridView_engelli.Visible = true;
-            //dataGridView_engelli.ClearSelection();
-            //dt.Clear();
-            //dt.Columns.Clear();
-            dataGridView_engelli.DataSource = null;
-            dataGridView_engelli.Refresh();
-
-            da = new SqlDataAdapter("Select * From Kullanici", connect.baglantıadresi());
-            da.Fill(dt);
-            dataGridView_engelli.DataSource = dt;
-            //dt.Dispose();
-            //da.Dispose();
-            dataGridView_engelli.AutoResizeColumns();
-            dataGridView_engelli.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            
-
-            connect.baglantıkapamak();
-            //timerYenileyici.Stop();*/
         }
 
         private void btnCagriGuncelle_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                connect.baglanticontrol();
+
+                pnlGuncel.Visible = true;
+                pnlGecmis.Visible = false;
+
+                dataGridViewGecmis.Visible = true;
+                dataGridViewGuncel.Visible = true;
+
+                datagridfiltesiz("Güncel");
+                dataGridViewGuncel.DataSource = dt;
+                SqlCommandBuilder cmdb = new SqlCommandBuilder(da);
+                da.Update(dt);
+                MessageBox.Show("Kayıt güncellendi!", "Bilgilendirme Penceresi", MessageBoxButtons.OK);
+
+                
+                connect.baglantıkapamak();
+            }
+            catch
+            {
+                MessageBox.Show("Hata! Kayıt Güncellenemedi", "Bilgilendirme Penceresi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnGecmis_Click(object sender, EventArgs e)
+        {
+            timer_Güncel.Start();
+            connect.baglanticontrol();
+
+            flowLayoutPanelCagri.Controls.Clear();
+            flowLayoutPanelCagri.Controls.Add(pnlGecmis);
+
+            pnlGuncel.Visible = false;
+            pnlGecmis.Visible = true;
+
+            dataGridViewGuncel.Visible = false;
+            dataGridViewGecmis.Visible = true;
+
+            datagridfiltesiz("Gecmis");
+            connect.baglantıkapamak();
+        }
+
+        private void btnReturnAnaEkran_Click(object sender, EventArgs e)
+        {
+            timer_Güncel.Start();
+            AnaEkran anaekran1 = new AnaEkran();
+            anaekran1.Show();
+            this.Hide();
+
+        }
+
+        private void CagriEkrani_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            timer_Güncel.Start();
+            Giris giris = new Giris();
+            giris.Show();
+            this.Hide();
+        }
+
+        private void btnGuncel_Click(object sender, EventArgs e)
         {
             //try
             //{
             //    connect.baglanticontrol();
 
-            //    pnlGuncel.Visible = true;
+            //    flowLayoutPanelCagri.Controls.Clear();
+            //    flowLayoutPanelCagri.Controls.Add(pnlGuncel);
+
             //    pnlGecmis.Visible = false;
+            //    pnlGuncel.Visible = true;
 
-
+            //    dataGridViewGecmis.Visible = false;
             //    dataGridViewGuncel.Visible = true;
-
-            //    dataGridViewGuncel.ReadOnly = false;
-
-            //    cmb_durum.Text = "Filtrele";
-             //    komut.CommandText = "Insert Into Yardim (durum) values('" + cmb_durum.Text + "')";
-            //    komut.ExecuteNonQuery();
-
-            //    //da = new SqlDataAdapter("Select kartID, TC, adi, soyadi, engeli, telefonu, yakinTelefonu, sonuc, yardimTarihiSaati, ekNot " +
-            //    //    "From Yardim, Kullanici, Kart, RaspAdres where Yardim.kartID = Kart.kartID", connect.baglantıadresi());
-            //    //dataGridViewGuncel.DataSource = dt;
-            //    //SqlCommandBuilder cmdb = new SqlCommandBuilder(da);
-            //    da.Update(dt);
-
-            //    MessageBox.Show("Kayıt güncellendi!", "Bilgilendirme Penceresi", MessageBoxButtons.OK);
-            //    komut.Clone();
-
+                
+            //    datagridfiltesiz("Güncel");
             //    connect.baglantıkapamak();
+
+
             //}
             //catch
             //{
-            //    MessageBox.Show("Hata! Kayıt Güncellenemedi", "Bilgilendirme Penceresi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
             //}
         }
 
-        private void dataGridViewGuncel_CellEnter(object sender, DataGridViewCellEventArgs e)
+        private void timer_Güncel_Tick(object sender, EventArgs e)
         {
-            dataGridViewGuncel.ReadOnly = false;
-            SetComboBoxCellType objChangeCellType = new SetComboBoxCellType(ChangeCellToComboBox);
-            if (e.ColumnIndex == this.dataGridViewGuncel.Columns["durum"].Index)
+            try
             {
-                this.dataGridViewGuncel.BeginInvoke(objChangeCellType, e.RowIndex);
-                bIsComboBox = false;
+                connect.baglanticontrol();
+                datagridfiltesiz("Güncel");
+                connect.baglantıkapamak();
+
+            }
+            catch
+            {
+
             }
         }
-        private void ChangeCellToComboBox(int iRowIndex)
+        private void dataGridViewGuncel_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-            dataGridViewGuncel.ReadOnly = false;
-
-            if (bIsComboBox == false)
-            {
-                DataGridViewComboBoxCell dgComboCell = new DataGridViewComboBoxCell();
-                dgComboCell.DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
-                dataGridViewGuncel.Rows[iRowIndex].Cells[dataGridViewGuncel.CurrentCell.ColumnIndex] = dgComboCell;
-                bIsComboBox = true;
-            }
+            timer_Güncel.Stop();
+        }
+        private void dataGridViewGuncel_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            timer_Güncel.Start();
         }
     }
 }

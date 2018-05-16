@@ -18,7 +18,7 @@ namespace EngelsizKartSistemi
         SqlDataAdapter da;
         DataTable dt = new DataTable();
         SqlCommand komut = new SqlCommand();
-        int TC;
+        int KartID;
 
         public Kullanıcılar()
         {
@@ -73,7 +73,7 @@ namespace EngelsizKartSistemi
 
                 dataGridViewKullanici.Refresh();
 
-                da = new SqlDataAdapter("Select * From Kullanici", connect.baglantıadresi());
+                da = new SqlDataAdapter("Select KartID[Kart ID], TC[TC], adi[Adı], soyadi[Soyadı], engeli[Engeli], telefon[Telefonu], yakinAdi[Yakın Adı], yakinSoyadi[Yakın Soyadı], yakinTelefonu[Yakın Telefonu] From Kullanici", connect.baglantıadresi());
                 da.Fill(dt);
                 dataGridViewKullanici.DataSource = dt;
 
@@ -157,6 +157,11 @@ namespace EngelsizKartSistemi
             {
                 cbKullaniciEngel.Items.Add(dr["engeli"]);
             }
+            cbKullaniciEngel.Items.Add("Zihinsel");
+            cbKullaniciEngel.Items.Add("Ortopedik");
+            cbKullaniciEngel.Items.Add("Görme");
+            cbKullaniciEngel.Items.Add("İşitme");
+
             dr.Close();
             connect.baglantıkapamak();
         }
@@ -207,8 +212,6 @@ namespace EngelsizKartSistemi
             }
 
             dr.Close();
-            connect.baglantıkapamak();
-
         }
 
         private void btnKullaniciAyar_Click(object sender, EventArgs e)
@@ -222,7 +225,7 @@ namespace EngelsizKartSistemi
 
                 dataGridViewKullanici.Visible = true;
 
-                da = new SqlDataAdapter("Select * From Kullanici", connect.baglantıadresi());
+                da = new SqlDataAdapter("Select KartID[Kart ID], TC[TC], adi[Adı], soyadi[Soyadı], engeli[Engeli], telefon[Telefonu], yakinAdi[Yakın Adı], yakinSoyadi[Yakın Soyadı], yakinTelefonu[Yakın Telefonu] From Kullanici", connect.baglantıadresi());
                 dataGridViewKullanici.DataSource = dt;
                 SqlCommandBuilder cmdb = new SqlCommandBuilder(da);
                 da.Update(dt);
@@ -245,7 +248,7 @@ namespace EngelsizKartSistemi
         private void btnEkle_Click(object sender, EventArgs e)
         {
             if (nullcontrol(tbKullaniciEkleTc) == false || nullcontrol(tbKullaniciAd) == false || nullcontrol(tbKullaniciSoyad) == false
-                || nullcontrol(txt_kartID) == false /*|| IsValidEmail(txtyetkiliposta_m.Text) == false || IsValidEmail(txt_teposta_m.Text) == false*/)
+                || nullcontrol(txt_kartID) == false)
             {
                 MessageBox.Show("LUTFEN * İLE BELİRTİLEN ALANLARI DOLDURUNUZ !");
             }
@@ -254,22 +257,29 @@ namespace EngelsizKartSistemi
                 try
                 {
                     connect.baglanticontrol();
-                    SqlCommand komut = new SqlCommand("KullaniciEkle", connect.baglantıadresi());
+                        SqlCommand komut = new SqlCommand("KullaniciEkle", connect.baglantıadresi());
                     komut.CommandType = CommandType.StoredProcedure;
                     komut.Parameters.AddWithValue("@TC", SqlDbType.Int).Value = tbKullaniciEkleTc.Text.Trim();
                     komut.Parameters.AddWithValue("@adi", SqlDbType.NVarChar).Value = tbKullaniciAd.Text.Trim();
                     komut.Parameters.AddWithValue("@soyadi", SqlDbType.NVarChar).Value = tbKullaniciSoyad.Text.Trim();
                     komut.Parameters.AddWithValue("@engeli", SqlDbType.NVarChar).Value = cbKullaniciEngel.SelectedItem.ToString().Trim();
+                    komut.Parameters.AddWithValue("@telefon", SqlDbType.NVarChar).Value = tbKullaniciTelefon.Text.Trim();
                     komut.Parameters.AddWithValue("@yakinAdi", SqlDbType.NVarChar).Value = tbYakinAd.Text.Trim();
                     komut.Parameters.AddWithValue("@yakinSoyadi", SqlDbType.NVarChar).Value = tbYakinSoyad.Text.Trim();
                     komut.Parameters.AddWithValue("@yakinTelefonu", SqlDbType.NVarChar).Value = tbYakinTelefon.Text.Trim();
-                    komut.Parameters.AddWithValue("@telefonu", SqlDbType.NVarChar).Value = tbKullaniciTelefon.Text.Trim();
-                    komut.Parameters.AddWithValue("@kartID", SqlDbType.NVarChar).Value = txt_kartID.Text.Trim();
+                    komut.Parameters.AddWithValue("@KartID", SqlDbType.NVarChar).Value = txt_kartID.Text.Trim();
                     komut.ExecuteNonQuery();
-                    //komut.Parameters.AddWithValue("@adresID", SqlDbType.Int).Value = int.Parse(AdresID);
-                    MessageBox.Show("Kullanıcı Eklendi !", "Bilgilendirme Penceresi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    DialogResult secenek = MessageBox.Show("Kullanıcı Eklendi !", "Bilgilendirme Penceresi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if(secenek == DialogResult.OK)
+                    {
+                        flowLayoutPanelKullanici.Controls.Clear();
+                        flowLayoutPanelKullanici.Controls.Add(pnlKullaniciBilgi);
+                        pnlKullaniciEkle.Visible = false;
+                        pnlKullaniciBilgi.Visible = true;
+                        dataGridViewKullanici.Visible = true;
+                        datagridfiltesiz("Kullanici");
+                    }
 
-                    //this.Close();
                 }
                 catch (Exception)
                 {
@@ -290,7 +300,7 @@ namespace EngelsizKartSistemi
             dataGridViewKullanici.Refresh();
             string KullaniciTC;
             KullaniciTC = cmb_kullanıcıtc.SelectedItem.ToString();
-            da = new SqlDataAdapter("Select * From Kullanici where TC = '" + KullaniciTC + "'", connect.baglantıadresi());
+            da = new SqlDataAdapter("Select KartID[Kart ID], TC [TC], adi[Adı], soyadi[Soyadı], engeli[Engeli], telefon[Telefonu], yakinAdi[Yakın Adı], yakinSoyadi[Yakın Soyadı], yakinTelefonu[Yakın Telefonu] From Kullanici where TC = '" + KullaniciTC + "'", connect.baglantıadresi());
             da.Fill(dt);
             dataGridViewKullanici.DataSource = dt;
             dt.Dispose();
@@ -327,11 +337,6 @@ namespace EngelsizKartSistemi
             }
         }
 
-        private void txt_kartID_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            karakterkontrol(sender, e, txt_kartID);
-        }
-
         private void tbYakinTelefon_KeyPress(object sender, KeyPressEventArgs e)
         {
             karakterkontrol(sender, e, tbYakinTelefon);
@@ -350,7 +355,7 @@ namespace EngelsizKartSistemi
                 if (satir > -1)
                 {
                     dataGridViewKullanici.Rows[satir].Selected = true;//bu tıkladığımız alanı seçtiriyoruz
-                    TC = Convert.ToInt32(dataGridViewKullanici.Rows[satir].Cells["TC"].Value);
+                    KartID = Convert.ToInt32(dataGridViewKullanici.Rows[satir].Cells["TC"].Value);
                 }
             }
         }
@@ -359,12 +364,11 @@ namespace EngelsizKartSistemi
         {
             string kullanicisil = " ";
             cmb_kullanıcıtc.Text = "Filtrele";
-            //foreach (DataGridViewRow drow in dataGridViewKullanici.SelectedRows)
-            //{
-               // int TC = Convert.ToInt32(drow.Cells[0].Value);
-                kullanicisil = connect.KullaniciSil(TC);
-            //}
+            kullanicisil = connect.KullaniciSil(KartID);
+            dataGridViewKullanici.Refresh();
             MessageBox.Show(kullanicisil);
+            datagridfiltesiz("Kullanici");
+            //cmb_kullanıcıtc.Refresh();
         }
 
         private void btnReturnAnaEkran_Click(object sender, EventArgs e)

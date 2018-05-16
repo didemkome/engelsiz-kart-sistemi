@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="timerYenileyici.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnGuncel.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -5526,7 +5523,7 @@
     <value>Microsoft Sans Serif, 12pt, style=Bold</value>
   </data>
   <data name="btnGuncel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 11</value>
+    <value>71, 12</value>
   </data>
   <data name="btnGuncel.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 125</value>
@@ -5548,7 +5545,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGuncel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnGecmis.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -10957,7 +10954,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnGecmis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 11</value>
+    <value>230, 12</value>
   </data>
   <data name="btnGecmis.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 125</value>
@@ -10978,34 +10975,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnGecmis.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="cbMahalle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 42</value>
-  </data>
-  <data name="cbMahalle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 24</value>
-  </data>
-  <data name="cbMahalle.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;cbMahalle.Name" xml:space="preserve">
-    <value>cbMahalle</value>
-  </data>
-  <data name="&gt;&gt;cbMahalle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbMahalle.Parent" xml:space="preserve">
-    <value>pnlGecmis</value>
-  </data>
-  <data name="&gt;&gt;cbMahalle.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="dataGridViewGecmis.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 72</value>
+    <value>47, 57</value>
   </data>
   <data name="dataGridViewGecmis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 191</value>
+    <value>822, 217</value>
   </data>
   <data name="dataGridViewGecmis.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -11020,16 +10996,19 @@
     <value>pnlGecmis</value>
   </data>
   <data name="&gt;&gt;dataGridViewGecmis.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="pnlGecmis.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
   <data name="pnlGecmis.Size" type="System.Drawing.Size, System.Drawing">
-    <value>773, 295</value>
+    <value>913, 295</value>
   </data>
   <data name="pnlGecmis.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="pnlGecmis.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;pnlGecmis.Name" xml:space="preserve">
     <value>pnlGecmis</value>
@@ -11044,10 +11023,10 @@
     <value>0</value>
   </data>
   <data name="dataGridViewGuncel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 60</value>
+    <value>50, 60</value>
   </data>
   <data name="dataGridViewGuncel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>611, 217</value>
+    <value>822, 217</value>
   </data>
   <data name="dataGridViewGuncel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -11064,59 +11043,8 @@
   <data name="&gt;&gt;dataGridViewGuncel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cmb_durum.Items" xml:space="preserve">
-    <value>Ambulans Gönderildi</value>
-  </data>
-  <data name="cmb_durum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 25</value>
-  </data>
-  <data name="cmb_durum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 24</value>
-  </data>
-  <data name="cmb_durum.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;cmb_durum.Name" xml:space="preserve">
-    <value>cmb_durum</value>
-  </data>
-  <data name="&gt;&gt;cmb_durum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmb_durum.Parent" xml:space="preserve">
-    <value>pnlGuncel</value>
-  </data>
-  <data name="&gt;&gt;cmb_durum.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lbl_durum.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lbl_durum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 31</value>
-  </data>
-  <data name="lbl_durum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 16</value>
-  </data>
-  <data name="lbl_durum.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lbl_durum.Text" xml:space="preserve">
-    <value>Durum : </value>
-  </data>
-  <data name="&gt;&gt;lbl_durum.Name" xml:space="preserve">
-    <value>lbl_durum</value>
-  </data>
-  <data name="&gt;&gt;lbl_durum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_durum.Parent" xml:space="preserve">
-    <value>pnlGuncel</value>
-  </data>
-  <data name="&gt;&gt;lbl_durum.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="btnCagriGuncelle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 22</value>
+    <value>50, 25</value>
   </data>
   <data name="btnCagriGuncelle.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 29</value>
@@ -11137,13 +11065,13 @@
     <value>pnlGuncel</value>
   </data>
   <data name="&gt;&gt;btnCagriGuncelle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="pnlGuncel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
   <data name="pnlGuncel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 301</value>
+    <value>916, 301</value>
   </data>
   <data name="pnlGuncel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -11164,10 +11092,10 @@
     <value>Bottom</value>
   </data>
   <data name="flowLayoutPanelCagri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 142</value>
+    <value>0, 157</value>
   </data>
   <data name="flowLayoutPanelCagri.Size" type="System.Drawing.Size, System.Drawing">
-    <value>779, 304</value>
+    <value>919, 304</value>
   </data>
   <data name="flowLayoutPanelCagri.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -11182,15 +11110,49 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanelCagri.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnReturnAnaEkran.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnReturnAnaEkran.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4QwYBx0Fy9h+4AAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABtSURBVDhP
+        Yxh84P///0x/v37NhHJJAyDNf75/n/Xn27cQqBDxAKz569c5lGieS4nmeWRpBgGgxkO/v33rB9IRpOLf
+        X754MAAD7TBFBlDsBRCgKBBhgKJohAGwIeQmJBgAGfL327c8KHfQAwYGAJfKw7HjITNVAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnReturnAnaEkran.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnReturnAnaEkran.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 2</value>
+  </data>
+  <data name="btnReturnAnaEkran.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 39</value>
+  </data>
+  <data name="btnReturnAnaEkran.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Name" xml:space="preserve">
+    <value>btnReturnAnaEkran</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReturnAnaEkran.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>148, 17</value>
+  <metadata name="timer_Güncel.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>24, 14</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -11203,7 +11165,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>779, 446</value>
+    <value>919, 461</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -17389,17 +17351,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Çağrı Ekranı</value>
   </data>
-  <data name="&gt;&gt;timerYenileyici.Name" xml:space="preserve">
-    <value>timerYenileyici</value>
+  <data name="&gt;&gt;timer_Güncel.Name" xml:space="preserve">
+    <value>timer_Güncel</value>
   </data>
-  <data name="&gt;&gt;timerYenileyici.Type" xml:space="preserve">
+  <data name="&gt;&gt;timer_Güncel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
-    <value>colorDialog1</value>
-  </data>
-  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CagriEkrani</value>

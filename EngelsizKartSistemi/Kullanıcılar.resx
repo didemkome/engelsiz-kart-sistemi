@@ -126,7 +126,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnKullaniciEkle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>588, 12</value>
+    <value>581, 12</value>
   </data>
   <data name="btnKullaniciEkle.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 97</value>
@@ -145,63 +145,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnKullaniciEkle.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnKullaniciSil.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="btnKullaniciSil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnKullaniciSil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnKullaniciSil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 12</value>
-  </data>
-  <data name="btnKullaniciSil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 97</value>
-  </data>
-  <data name="btnKullaniciSil.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;btnKullaniciSil.Name" xml:space="preserve">
-    <value>btnKullaniciSil</value>
-  </data>
-  <data name="&gt;&gt;btnKullaniciSil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnKullaniciSil.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnKullaniciSil.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="bntKullaniciBilgi.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="bntKullaniciBilgi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="bntKullaniciBilgi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 12</value>
-  </data>
-  <data name="bntKullaniciBilgi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 97</value>
-  </data>
-  <data name="bntKullaniciBilgi.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;bntKullaniciBilgi.Name" xml:space="preserve">
-    <value>bntKullaniciBilgi</value>
-  </data>
-  <data name="&gt;&gt;bntKullaniciBilgi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bntKullaniciBilgi.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;bntKullaniciBilgi.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="btnKullaniciAyar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -235,7 +178,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="txt_kartID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>561, 48</value>
+    <value>639, 49</value>
   </data>
   <data name="txt_kartID.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 22</value>
@@ -265,16 +208,16 @@
     <value>NoControl</value>
   </data>
   <data name="lbl_kartID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>407, 52</value>
+    <value>471, 52</value>
   </data>
   <data name="lbl_kartID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 16</value>
+    <value>68, 16</value>
   </data>
   <data name="lbl_kartID.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="lbl_kartID.Text" xml:space="preserve">
-    <value>Kart ID:</value>
+    <value>Kart ID: *</value>
   </data>
   <data name="&gt;&gt;lbl_kartID.Name" xml:space="preserve">
     <value>lbl_kartID</value>
@@ -298,7 +241,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="btnEkle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 80</value>
+    <value>464, 80</value>
   </data>
   <data name="btnEkle.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 30</value>
@@ -478,7 +421,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="groupBoxYakin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 200</value>
+    <value>136, 200</value>
   </data>
   <data name="groupBoxYakin.Size" type="System.Drawing.Size, System.Drawing">
     <value>264, 109</value>
@@ -508,16 +451,16 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 86</value>
+    <value>5, 83</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 16</value>
+    <value>74, 16</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>T.C. Kimlik No:</value>
+    <value>T.C. No: *</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -640,16 +583,16 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="lblKullaniciSoyad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 58</value>
+    <value>6, 55</value>
   </data>
   <data name="lblKullaniciSoyad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 16</value>
+    <value>71, 16</value>
   </data>
   <data name="lblKullaniciSoyad.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="lblKullaniciSoyad.Text" xml:space="preserve">
-    <value>Soyadı:</value>
+    <value>Soyadı: *</value>
   </data>
   <data name="&gt;&gt;lblKullaniciSoyad.Name" xml:space="preserve">
     <value>lblKullaniciSoyad</value>
@@ -670,16 +613,16 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="lblKullaniciAd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 33</value>
+    <value>6, 30</value>
   </data>
   <data name="lblKullaniciAd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 16</value>
+    <value>45, 16</value>
   </data>
   <data name="lblKullaniciAd.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lblKullaniciAd.Text" xml:space="preserve">
-    <value>Adı:</value>
+    <value>Adı: *</value>
   </data>
   <data name="&gt;&gt;lblKullaniciAd.Name" xml:space="preserve">
     <value>lblKullaniciAd</value>
@@ -760,7 +703,7 @@
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="groupBoxKullanici.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 25</value>
+    <value>136, 25</value>
   </data>
   <data name="groupBoxKullanici.Size" type="System.Drawing.Size, System.Drawing">
     <value>264, 169</value>
@@ -790,7 +733,7 @@
     <value>0, 3</value>
   </data>
   <data name="pnlKullaniciEkle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 316</value>
+    <value>914, 340</value>
   </data>
   <data name="pnlKullaniciEkle.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -814,7 +757,7 @@
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 41</value>
+    <value>146, 41</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 13</value>
@@ -856,10 +799,10 @@
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="dataGridViewKullanici.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 70</value>
+    <value>48, 70</value>
   </data>
   <data name="dataGridViewKullanici.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 181</value>
+    <value>801, 181</value>
   </data>
   <data name="dataGridViewKullanici.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -877,7 +820,7 @@
     <value>2</value>
   </data>
   <data name="cmb_kullanıcıtc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 38</value>
+    <value>276, 38</value>
   </data>
   <data name="cmb_kullanıcıtc.Size" type="System.Drawing.Size, System.Drawing">
     <value>484, 21</value>
@@ -897,11 +840,14 @@
   <data name="&gt;&gt;cmb_kullanıcıtc.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="pnlKullaniciBilgi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="pnlKullaniciBilgi.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
   <data name="pnlKullaniciBilgi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>776, 319</value>
+    <value>914, 343</value>
   </data>
   <data name="pnlKullaniciBilgi.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -922,10 +868,10 @@
     <value>Bottom</value>
   </data>
   <data name="flowLayoutPanelKullanici.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 116</value>
+    <value>0, 115</value>
   </data>
   <data name="flowLayoutPanelKullanici.Size" type="System.Drawing.Size, System.Drawing">
-    <value>779, 330</value>
+    <value>919, 346</value>
   </data>
   <data name="flowLayoutPanelKullanici.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -976,8 +922,41 @@
   <data name="&gt;&gt;btnReturnAnaEkran.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="bntKullaniciBilgi.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="bntKullaniciBilgi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="bntKullaniciBilgi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="bntKullaniciBilgi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 12</value>
+  </data>
+  <data name="bntKullaniciBilgi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 97</value>
+  </data>
+  <data name="bntKullaniciBilgi.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;bntKullaniciBilgi.Name" xml:space="preserve">
+    <value>bntKullaniciBilgi</value>
+  </data>
+  <data name="&gt;&gt;bntKullaniciBilgi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bntKullaniciBilgi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bntKullaniciBilgi.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -1008,7 +987,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>779, 446</value>
+    <value>919, 461</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

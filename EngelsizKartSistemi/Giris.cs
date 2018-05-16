@@ -25,8 +25,8 @@ namespace EngelsizKartSistemi
         {
             try
             {
-                   baglanti = new SqlConnection("server=DESKTOP-R4TJ1GG;Initial Catalog=EngelsizKartSistemi;Integrated Security=true");
-                   baglanti.Open();
+                baglanti = new SqlConnection("Data Source=den1.mssql6.gear.host;Initial Catalog=kartsistemi;User ID=kartsistemi; Password=123456.");
+                baglanti.Open();
             }
             catch (Exception)
             {

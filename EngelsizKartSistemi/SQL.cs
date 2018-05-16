@@ -56,7 +56,7 @@ namespace EngelsizKartSistemi
             try
             {
                 baglanticontrol();
-                string sql = "DELETE FROM Kullanici WHERE TC=@TC";
+                string sql = "DELETE FROM Kullanici WHERE @TC=TC";
                 komut = new SqlCommand(sql, baglantıadresi());
                 komut.Parameters.AddWithValue("@TC", TC);
                 komut.ExecuteNonQuery();

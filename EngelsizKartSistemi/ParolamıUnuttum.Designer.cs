@@ -46,7 +46,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label2.Location = new System.Drawing.Point(68, 257);
+            this.label2.Location = new System.Drawing.Point(85, 305);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 12;
@@ -58,7 +58,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label1.Location = new System.Drawing.Point(68, 210);
+            this.label1.Location = new System.Drawing.Point(85, 258);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 11;
@@ -66,7 +66,7 @@
             // 
             // tbemail
             // 
-            this.tbemail.Location = new System.Drawing.Point(68, 273);
+            this.tbemail.Location = new System.Drawing.Point(85, 321);
             this.tbemail.Multiline = true;
             this.tbemail.Name = "tbemail";
             this.tbemail.Size = new System.Drawing.Size(165, 28);
@@ -78,7 +78,7 @@
             this.btnYenile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYenile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnYenile.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnYenile.Location = new System.Drawing.Point(68, 307);
+            this.btnYenile.Location = new System.Drawing.Point(85, 355);
             this.btnYenile.Name = "btnYenile";
             this.btnYenile.Size = new System.Drawing.Size(165, 28);
             this.btnYenile.TabIndex = 2;
@@ -88,7 +88,7 @@
             // 
             // tbTc
             // 
-            this.tbTc.Location = new System.Drawing.Point(68, 229);
+            this.tbTc.Location = new System.Drawing.Point(85, 277);
             this.tbTc.Multiline = true;
             this.tbTc.Name = "tbTc";
             this.tbTc.Size = new System.Drawing.Size(165, 28);
@@ -99,7 +99,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(95, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(113, 95);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(119, 139);
             this.pictureBox1.TabIndex = 13;
@@ -111,7 +111,7 @@
             this.btnReturn.FlatAppearance.BorderSize = 0;
             this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReturn.Image = ((System.Drawing.Image)(resources.GetObject("btnReturn.Image")));
-            this.btnReturn.Location = new System.Drawing.Point(0, -1);
+            this.btnReturn.Location = new System.Drawing.Point(12, 12);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(47, 39);
             this.btnReturn.TabIndex = 38;
@@ -125,7 +125,7 @@
             this.lbl_Login.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
             this.lbl_Login.ForeColor = System.Drawing.Color.Gray;
             this.lbl_Login.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbl_Login.Location = new System.Drawing.Point(33, 29);
+            this.lbl_Login.Location = new System.Drawing.Point(55, 59);
             this.lbl_Login.Name = "lbl_Login";
             this.lbl_Login.Size = new System.Drawing.Size(234, 33);
             this.lbl_Login.TabIndex = 39;
@@ -137,7 +137,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EngelsizKartSistemi.Resource2.arkaplan2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(300, 380);
+            this.ClientSize = new System.Drawing.Size(340, 480);
             this.Controls.Add(this.lbl_Login);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.pictureBox1);

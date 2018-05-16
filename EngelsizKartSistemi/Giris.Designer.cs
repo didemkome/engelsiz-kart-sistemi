@@ -42,7 +42,7 @@
             // 
             // tbKullaniciAdi
             // 
-            this.tbKullaniciAdi.Location = new System.Drawing.Point(67, 198);
+            this.tbKullaniciAdi.Location = new System.Drawing.Point(89, 247);
             this.tbKullaniciAdi.Multiline = true;
             this.tbKullaniciAdi.Name = "tbKullaniciAdi";
             this.tbKullaniciAdi.Size = new System.Drawing.Size(165, 28);
@@ -54,7 +54,7 @@
             this.btnGiris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGiris.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btnGiris.Location = new System.Drawing.Point(67, 305);
+            this.btnGiris.Location = new System.Drawing.Point(89, 354);
             this.btnGiris.Name = "btnGiris";
             this.btnGiris.Size = new System.Drawing.Size(165, 28);
             this.btnGiris.TabIndex = 2;
@@ -64,9 +64,10 @@
             // 
             // tbParola
             // 
-            this.tbParola.Location = new System.Drawing.Point(67, 242);
+            this.tbParola.Location = new System.Drawing.Point(89, 291);
             this.tbParola.Multiline = true;
             this.tbParola.Name = "tbParola";
+            this.tbParola.PasswordChar = '*';
             this.tbParola.Size = new System.Drawing.Size(165, 28);
             this.tbParola.TabIndex = 1;
             // 
@@ -79,7 +80,7 @@
             this.btn_parolamıunuttum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_parolamıunuttum.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btn_parolamıunuttum.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.btn_parolamıunuttum.Location = new System.Drawing.Point(120, 272);
+            this.btn_parolamıunuttum.Location = new System.Drawing.Point(142, 321);
             this.btn_parolamıunuttum.Name = "btn_parolamıunuttum";
             this.btn_parolamıunuttum.Size = new System.Drawing.Size(129, 27);
             this.btn_parolamıunuttum.TabIndex = 3;
@@ -92,7 +93,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(95, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(117, 86);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(119, 139);
             this.pictureBox1.TabIndex = 4;
@@ -104,7 +105,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label1.Location = new System.Drawing.Point(67, 179);
+            this.label1.Location = new System.Drawing.Point(89, 228);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 5;
@@ -116,7 +117,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label2.Location = new System.Drawing.Point(67, 229);
+            this.label2.Location = new System.Drawing.Point(89, 278);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 6;
@@ -129,7 +130,7 @@
             this.btnReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReturn.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnReturn.Location = new System.Drawing.Point(259, 1);
+            this.btnReturn.Location = new System.Drawing.Point(288, 12);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(40, 29);
             this.btnReturn.TabIndex = 38;
@@ -143,7 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::EngelsizKartSistemi.Resource2.arkaplan2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(300, 380);
+            this.ClientSize = new System.Drawing.Size(340, 480);
             this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

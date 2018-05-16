@@ -33,8 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnKullaniciEkle = new System.Windows.Forms.Button();
-            this.btnKullaniciSil = new System.Windows.Forms.Button();
-            this.bntKullaniciBilgi = new System.Windows.Forms.Button();
             this.btnKullaniciAyar = new System.Windows.Forms.Button();
             this.pnlKullaniciBilgi = new System.Windows.Forms.Panel();
             this.pnlKullaniciEkle = new System.Windows.Forms.Panel();
@@ -66,6 +64,7 @@
             this.cmb_kullanıcıtc = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanelKullanici = new System.Windows.Forms.FlowLayoutPanel();
             this.btnReturnAnaEkran = new System.Windows.Forms.Button();
+            this.bntKullaniciBilgi = new System.Windows.Forms.Button();
             this.pnlKullaniciBilgi.SuspendLayout();
             this.pnlKullaniciEkle.SuspendLayout();
             this.groupBoxYakin.SuspendLayout();
@@ -87,32 +86,6 @@
             this.btnKullaniciEkle.Name = "btnKullaniciEkle";
             this.btnKullaniciEkle.UseVisualStyleBackColor = false;
             this.btnKullaniciEkle.Click += new System.EventHandler(this.btnKullaniciEkle_Click);
-            // 
-            // btnKullaniciSil
-            // 
-            this.btnKullaniciSil.BackColor = System.Drawing.Color.Transparent;
-            this.btnKullaniciSil.BackgroundImage = global::EngelsizKartSistemi.Resource2.kullaniciSil;
-            resources.ApplyResources(this.btnKullaniciSil, "btnKullaniciSil");
-            this.btnKullaniciSil.FlatAppearance.BorderSize = 0;
-            this.btnKullaniciSil.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnKullaniciSil.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnKullaniciSil.ForeColor = System.Drawing.Color.Transparent;
-            this.btnKullaniciSil.Name = "btnKullaniciSil";
-            this.btnKullaniciSil.UseVisualStyleBackColor = false;
-            this.btnKullaniciSil.Click += new System.EventHandler(this.btnKullaniciSil_Click);
-            // 
-            // bntKullaniciBilgi
-            // 
-            this.bntKullaniciBilgi.BackColor = System.Drawing.Color.Transparent;
-            this.bntKullaniciBilgi.BackgroundImage = global::EngelsizKartSistemi.Resource2.kullaniciBilgi;
-            resources.ApplyResources(this.bntKullaniciBilgi, "bntKullaniciBilgi");
-            this.bntKullaniciBilgi.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bntKullaniciBilgi.FlatAppearance.BorderSize = 0;
-            this.bntKullaniciBilgi.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.bntKullaniciBilgi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.bntKullaniciBilgi.Name = "bntKullaniciBilgi";
-            this.bntKullaniciBilgi.UseVisualStyleBackColor = false;
-            this.bntKullaniciBilgi.Click += new System.EventHandler(this.bntKullaniciBilgi_Click);
             // 
             // btnKullaniciAyar
             // 
@@ -151,7 +124,6 @@
             // 
             resources.ApplyResources(this.txt_kartID, "txt_kartID");
             this.txt_kartID.Name = "txt_kartID";
-            this.txt_kartID.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_kartID_KeyPress);
             // 
             // lbl_kartID
             // 
@@ -352,6 +324,19 @@
             this.btnReturnAnaEkran.UseVisualStyleBackColor = false;
             this.btnReturnAnaEkran.Click += new System.EventHandler(this.btnReturnAnaEkran_Click);
             // 
+            // bntKullaniciBilgi
+            // 
+            this.bntKullaniciBilgi.BackColor = System.Drawing.Color.Transparent;
+            this.bntKullaniciBilgi.BackgroundImage = global::EngelsizKartSistemi.Resource2.kullaniciBilgi;
+            resources.ApplyResources(this.bntKullaniciBilgi, "bntKullaniciBilgi");
+            this.bntKullaniciBilgi.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bntKullaniciBilgi.FlatAppearance.BorderSize = 0;
+            this.bntKullaniciBilgi.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.bntKullaniciBilgi.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.bntKullaniciBilgi.Name = "bntKullaniciBilgi";
+            this.bntKullaniciBilgi.UseVisualStyleBackColor = false;
+            this.bntKullaniciBilgi.Click += new System.EventHandler(this.bntKullaniciBilgi_Click);
+            // 
             // Kullanıcılar
             // 
             resources.ApplyResources(this, "$this");
@@ -359,7 +344,6 @@
             this.Controls.Add(this.btnReturnAnaEkran);
             this.Controls.Add(this.flowLayoutPanelKullanici);
             this.Controls.Add(this.btnKullaniciAyar);
-            this.Controls.Add(this.btnKullaniciSil);
             this.Controls.Add(this.bntKullaniciBilgi);
             this.Controls.Add(this.btnKullaniciEkle);
             this.ForeColor = System.Drawing.SystemColors.Control;
@@ -385,8 +369,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnKullaniciEkle;
-        private System.Windows.Forms.Button btnKullaniciSil;
-        private System.Windows.Forms.Button bntKullaniciBilgi;
         private System.Windows.Forms.Button btnKullaniciAyar;
         private System.Windows.Forms.Panel pnlKullaniciBilgi;
         private System.Windows.Forms.DataGridView dataGridViewKullanici;
@@ -418,5 +400,6 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip_Sil;
         private System.Windows.Forms.ToolStripMenuItem silToolStripMenuItem;
         private System.Windows.Forms.Button btnReturnAnaEkran;
+        private System.Windows.Forms.Button bntKullaniciBilgi;
     }
 }
